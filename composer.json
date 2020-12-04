@@ -1,0 +1,32 @@
+{
+    "name":"kuga/demo-api",
+    "description":"Demo API",
+    "type":"library",
+    "license": "LGPL-3.0",
+    "require":{
+        "php":">=7.0",
+        "kuga/qing":"dev-master",
+        "kuga/openapi-core":"dev-master",
+        "phalcon/incubator": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuga\\": "src"
+        }
+    },
+
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url":"https://mirrors.aliyun.com/composer/"
+        },
+        "openapi-core": {
+            "type": "vcs",
+            "url": "https://hub.fastgit.org/misnet/kuga-openapi-core.git"
+        },
+        "qing": {
+            "type": "vcs",
+            "url": "https://hub.fastgit.org/misnet/qing.git"
+        }
+    }
+}

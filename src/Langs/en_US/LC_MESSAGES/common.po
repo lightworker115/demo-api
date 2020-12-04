@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kuga-Demo\n"
+"POT-Creation-Date: 2020-12-04 16:30+0800\n"
+"PO-Revision-Date: 2020-12-04 16:30+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ../../../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t;_;nquery:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: Api\n"
+"X-Poedit-SearchPath-2: Module\n"
+
+#: Api/Demo/Cart.php:25
+msgid "这是测试"
+msgstr "This is a test"
+
+#: Api/Demo/Cart.php:40
+msgid "产品数量未指定"
+msgstr ""
+
+#: Api/Demo/Cart.php:63
+msgid "产品不存在"
+msgstr ""
+
+#: Api/Demo/Cart.php:68 Api/Demo/Exception.php:54 Api/Demo/Exception.php:58
+msgid "库存不足"
+msgstr ""
+
+#: Api/Demo/Cart.php:92
+msgid "购物车最多只能存放%max%条记录"
+msgstr ""
+
+#: Api/Demo/Cart.php:153
+msgid "未指定会员"
+msgstr ""
+
+#: Api/Demo/Exception.php:52
+msgid "无有效数据"
+msgstr ""
+
+#: Api/Demo/Exception.php:53
+msgid "SKU不存在"
+msgstr ""
+
+#: Api/Demo/Exception.php:55
+msgid "找不到订单"
+msgstr ""
+
+#: Api/Demo/Exception.php:56
+msgid "订单已存在"
+msgstr ""
+
+#: Api/Demo/Exception.php:57
+msgid "找不到订单子项目"
+msgstr ""
+
+#: Api/Demo/Exception.php:59
+msgid "未登录"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:56
+msgid "库存记录不存在"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:67 Api/Demo/ShopBaseApi.php:181
+msgid "实际库存变化失败"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:114
+msgid "库存在途变化失败"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:144
+msgid "库存无记录"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:191
+msgid "单据orderType不正确"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:234
+msgid "原材料%s%不存在"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:246 Api/Demo/ShopBaseApi.php:275
+msgid "单据明细创建失败"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:278
+msgid "单据明细为空，无法创建"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:415
+msgid "未知"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:540
+msgid "管理员未设定默认店仓"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:554
+msgid "待付款"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:556
+msgid "草稿"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:558
+msgid "已付款"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:560
+msgid "已取消"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:562
+msgid "生产中"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:564
+msgid "已签收"
+msgstr ""
+
+#: Api/Demo/ShopBaseApi.php:566
+msgid "已发货"
+msgstr ""
+
+#: Module/Demo/Model/ProductModel.php:152
+#: Module/Model的副本/ProductModel.php:152
+msgid "商品名称必须填写"
+msgstr ""
+
+#: Module/Demo/Model/ProductModel.php:156
+#: Module/Model的副本/ProductModel.php:156
+msgid "未指定所有者，无法保存"
+msgstr ""
+
+#: Module/Demo/Model/ProductSkuModel.php:91
+#: Module/Model的副本/ProductSkuModel.php:91
+msgid "同款产品的SKU编码不可重复"
+msgstr ""
+
+#: Module/Demo/Model/StoreModel.php:72 Module/Model的副本/StoreModel.php:72
+msgid "请输入店仓名称"
+msgstr ""
+
+#: Module/Demo/Model/StoreModel.php:76 Module/Model的副本/StoreModel.php:76
+msgid "店仓所有者未指定"
+msgstr ""
+
+#: Module/Demo/Model/StoreModel.php:94 Module/Model的副本/StoreModel.php:94
+msgid "默认发货地，不可删除"
+msgstr ""
